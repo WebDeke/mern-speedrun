@@ -1,0 +1,18 @@
+.main {
+  min-height: 86vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.idgesg.net/images/article/2019/05/team_manipulates_coding_elements_programming_interface_development_developers_teamwork_by_dean_mitchell_gettyimages-1055056786_2400x1600-100795794-large.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+p {
+  color: #fff;
+}
+
+p {
+  text: 1.5rem;
+}
