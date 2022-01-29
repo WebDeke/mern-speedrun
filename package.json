@@ -4,7 +4,7 @@
   "description": "this is to get my feet wet enough to dev for hackermatch",
   "main": "server.js",
   "scripts": {
-    "start": "node backend-files/server.js"
+    "start": "nodemon backend-files/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/WebDeke/mern-speedrun#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
