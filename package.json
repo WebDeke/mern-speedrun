@@ -1,0 +1,22 @@
+{
+  "name": "mern-speedrun",
+  "version": "1.0.0",
+  "description": "this is to get my feet wet enough to dev for hackermatch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend-files/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDeke/mern-speedrun.git"
+  },
+  "author": "Ameya Singh (webdeke)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDeke/mern-speedrun/issues"
+  },
+  "homepage": "https://github.com/WebDeke/mern-speedrun#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
