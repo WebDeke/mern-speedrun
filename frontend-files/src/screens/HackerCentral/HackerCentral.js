@@ -42,14 +42,26 @@ const HackerCentral = () => {
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>More Info</Accordion.Header>
                   <Accordion.Body>
-                    <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                    <ListGroup.Item>
+                      Education: {hacker.level_of_ed}
+                    </ListGroup.Item>
+                    <ListGroup.Item>Major: {hacker.major}</ListGroup.Item>
+                    <ListGroup.Item>
+                      <a href={hacker.github}>Github</a> |{" "}
+                      <a href={hacker.devpost}>Devpost</a>
+                    </ListGroup.Item>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
               <ListGroup.Item>
-                <button type="button" class="btn btn-outline-secondary btn-sm">
-                  Match with {hacker.first_name}
-                </button>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-outline-primary btn-sm">
+                    Email
+                  </button>
+                  <button type="button" class="btn btn-outline-success btn-sm">
+                    Match with {hacker.first_name}
+                  </button>
+                </div>
               </ListGroup.Item>
             </Card.Body>
           </Card>
