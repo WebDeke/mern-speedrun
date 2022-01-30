@@ -1,0 +1,12 @@
+Card {
+  width: 18rem;
+  margin: 10px;
+}
+
+#card-header {
+  color: #33373c;
+}
+
+#card-body {
+  padding: 0px;
+}

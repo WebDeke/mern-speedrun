@@ -1,9 +1,11 @@
-const express = require("express");
-const hackers = require("./data/hackers.js");
-const dotenv = require("dotenv");
+import express from "express";
+import { hackers, find } from "./data/hackers.js";
+import { config } from "dotenv";
+import connectDB from "./config/db.js";
 
 const app = express();
-dotenv.config();
+config();
+connectDB();
 
 app.get("/", (req, res) => {
   res.send("The API is running.");
@@ -14,7 +16,7 @@ app.get("/api/hackers", (req, res) => {
 });
 
 app.get("/api/hackers/:id", (req, res) => {
-  const hacker = hackers.find((hacker) => hacker._id === req.params.id);
+  const hacker = find((hacker) => hacker._id === req.params.id);
 
   res.send(hacker);
 });

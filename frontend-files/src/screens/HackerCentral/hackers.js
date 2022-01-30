@@ -9,7 +9,7 @@ const hackers = [
     phone: "+1 (908) 567-3244",
     github: "https://github.com/webdeke",
     status: "Looking",
-    skills: ["JavaScript", "HTML", "CSS", "React", "Node.js", "Express"],
+    skills: "JavaScript, React, Node.js, Express, MongoDB",
   },
   {
     _id: "2",
@@ -21,7 +21,7 @@ const hackers = [
     phone: "+1 (908) 567-3244",
     github: "https://github.com/duanster69",
     status: "Looking",
-    skills: ["JavaScript", "Java"],
+    skills: "JavaScript",
   },
 ];
 

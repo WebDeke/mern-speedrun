@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this is to get my feet wet enough to dev for hackermatch",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon backend-files/server.js"
   },
@@ -17,8 +18,13 @@
   },
   "homepage": "https://github.com/WebDeke/mern-speedrun#readme",
   "dependencies": {
+    "concurrently": "^7.0.0",
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
+    "mongoose": "^5.12.3",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "find-imports": "^1.1.0"
   }
 }
